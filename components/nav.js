@@ -36,16 +36,16 @@ export default function Navigation() {
     categories: [
       {
         id: "categories",
-        name: "Сфери на дейност",
+        name: "Сферы деятельности",
         featured: [],
         services: [],
       },
     ],
     pages: [
-      { name: "Начало", href: "/" },
-      { name: "Екип", href: "/team" },
-      { name: "Блог", href: "/blog" },
-      { name: "Контакти", href: "/contact" },
+      { name: "Главная страница", href: "/" },
+      { name: "Коллектив", href: "/team" },
+      { name: "Новости", href: "/blog" },
+      { name: "Контакты", href: "/contact" },
     ],
   });
 
@@ -68,7 +68,7 @@ export default function Navigation() {
           categories: [
             {
               id: "categories",
-              name: "Сфери на дейност",
+              name: "Сферы деятельности",
               featured: featured.map((service) => ({
                 name: service.title.rendered,
                 href: `/services/${service.slug}`,

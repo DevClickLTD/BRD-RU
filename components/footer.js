@@ -8,14 +8,14 @@ import Link from "next/link";
 
 const navigation = {
   pages: [
-    { name: "Начало", href: "/" },
-    { name: "Екип", href: "/team" },
-    { name: "Блог", href: "/blog" },
-    { name: "Контакти", href: "/contact" },
+    { name: "Главная страница", href: "/" },
+    { name: "Коллектив", href: "/team" },
+    { name: "Новости", href: "/blog" },
+    { name: "Контакты", href: "/contact" },
   ],
   legal: [
-    { name: "Условия за ползване", href: "#" },
-    { name: "Политика за поверителност", href: "/privacy-policy" },
+    { name: "Условия эксплуатации", href: "#" },
+    { name: "Политика конфиденциальности", href: "/privacy-policy" },
   ],
   social: [
     {
@@ -150,7 +150,7 @@ export default function Footer() {
               {/* Страници колона */}
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Страници
+                  Страницы
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.pages.map((page) => (
@@ -168,7 +168,7 @@ export default function Footer() {
                   {/* Правна информация в същата колона */}
                   <li className="pt-6 mt-6 border-t border-gray-100">
                     <h3 className="text-sm/6 font-semibold text-gray-900">
-                      Правна информация
+                      Правова информация
                     </h3>
                   </li>
                   {navigation.legal.map((item) => (
@@ -216,7 +216,7 @@ export default function Footer() {
                               className="text-sm/6 font-medium text-[#95161C] hover:text-gray-900"
                               prefetch={true}
                             >
-                              Всички услуги →
+                              Все услуги →
                             </Link>
                           </div>
                         )}
@@ -228,7 +228,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
+        {/* <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
           <div>
             <h3 className="text-sm/6 font-semibold text-gray-900">
               Абонирайте се за нашия бюлетин
@@ -272,7 +272,7 @@ export default function Footer() {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
         <div className="mt-8 border-t border-gray-900/10 pt-8 md:flex md:items-center md:justify-between">
           <div className="flex gap-x-6 md:order-2">
             {navigation.social.map((item) => (

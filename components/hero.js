@@ -44,7 +44,7 @@ export default function Hero() {
               "Бурков, Радев, Дюлгерска"
             </h1>
             <p className="mt-4 text-2xl font-medium font-display">
-              Адвокатско дружество
+              Адвокатскоe бюро
             </p>
             <p className="mt-6 text-sm font-medium text-pretty text-gray-500 font-display">
               Кантората е основана през 2016 г., обединявайки екип от
@@ -59,13 +59,13 @@ export default function Hero() {
                 href="/services"
                 className="rounded-md bg-[#95161C] hover:bg-gray-300 hover:text-[#000000] px-3 py-2 text-sm font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Сфери на дейност
+                Сферы деятельности
               </Link>
               <Link
                 href="/contact"
                 className="text-sm font-semibold text-gray-900"
               >
-                Контакти <span aria-hidden="true">→</span>
+                Контакты <span aria-hidden="true">→</span>
               </Link>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function Hero() {
                     "Бурков, Радев, Дюлгерска"
                   </h1>
                   <p className="mt-8 text-4xl font-medium font-display">
-                    Адвокатско дружество
+                    Адвокатскоe бюро
                   </p>
                   <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 font-display">
                     Кантората е основана през 2016 г., обединявайки екип от
@@ -117,13 +117,13 @@ export default function Hero() {
                       href="/services"
                       className="rounded-md bg-[#95161C] hover:bg-gray-300 hover:text-[#000000] px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
-                      Сфери на дейност
+                      Сферы деятельности
                     </Link>
                     <Link
                       href="/contact"
                       className="text-sm/6 font-semibold text-gray-900"
                     >
-                      Контакти <span aria-hidden="true">→</span>
+                      Контакты <span aria-hidden="true">→</span>
                     </Link>
                   </div>
                 </div>

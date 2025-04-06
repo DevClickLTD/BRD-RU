@@ -3,9 +3,9 @@ import Link from "next/link";
 import { language } from "@/services/api";
 
 export const metadata = {
-  title: "Блог - Адвокатско дружество „Бурков, Радев, Дюлгерска“",
+  title: "Блог - Адвокатское бюро „Бурков, Радев, Дюлгерска“",
   description:
-    "Открийте актуални правни анализи, експертни съвети и новини в блога на Адвокатско дружество „Бурков, Радев, Дюлгерска“. Следете последните тенденции в правото, бизнеса и технологиите.",
+    "Ознакомьтесь с актуальными юридическими анализами, экспертными консультациями и новостями в блоге юридической фирмы «Бурков, Радев, Дюльгерская». Следите за последними тенденциями в области права, бизнеса и технологий.",
 };
 
 export default async function Blog({ searchParams }) {
@@ -39,12 +39,12 @@ export default async function Blog({ searchParams }) {
           <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-12 text-center shadow-2xl sm:px-12">
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-                От нашия блог
+                Из нашего блога
               </h1>
               <p className="mt-6 text-lg/8 text-white">
-                Актуални правни анализи, експертни мнения и ценни съвети –
-                всичко, което трябва да знаете, за да сте информирани и
-                защитени.
+                Актуальный юридический анализ, мнения экспертов и ценные советы
+                — все, что вам нужно знать, чтобы оставаться в курсе событий и
+                быть защищенным.
               </p>
             </div>
             <svg
@@ -113,9 +113,7 @@ export default async function Blog({ searchParams }) {
               ))}
             </div>
           ) : (
-            <p className="text-gray-600 text-center mt-10">
-              Няма намерени публикации.
-            </p>
+            <p className="text-gray-600 text-center mt-10">Нет публикаций.</p>
           )}
           {/* Pagination Controls */}
           <div className="mt-10 flex justify-center">
@@ -125,7 +123,7 @@ export default async function Blog({ searchParams }) {
                 className="px-4 py-2 mx-2 bg-gray-200 rounded-md"
                 prefetch={true}
               >
-                Предишна
+                Предыдущая
               </Link>
             )}
             <span className="px-4 py-2 mx-2">
@@ -137,7 +135,7 @@ export default async function Blog({ searchParams }) {
                 className="px-4 py-2 mx-2 bg-gray-200 rounded-md"
                 prefetch={true}
               >
-                Следваща
+                Следующая
               </Link>
             )}
           </div>
