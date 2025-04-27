@@ -96,10 +96,7 @@ export default function LatestPosts() {
                             format="webp"
                           />
                           <div className="text-sm/6 text-left">
-                            <p className="font-semibold text-white">
-                              {post.yoast_head_json?.author || "Unknown Author"}
-                            </p>
-                            <p className="text-white">Author</p>
+                            <p className="text-white">Автор</p>
                           </div>
                         </div>
                       </div>
