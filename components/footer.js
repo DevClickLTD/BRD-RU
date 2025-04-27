@@ -10,7 +10,7 @@ const navigation = {
   pages: [
     { name: "Главная страница", href: "/" },
     { name: "Коллектив", href: "/team" },
-    { name: "Новости", href: "/blog" },
+    // { name: "Новости", href: "/blog" },
     { name: "Контакты", href: "/contact" },
   ],
   legal: [
