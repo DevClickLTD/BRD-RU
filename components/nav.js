@@ -153,9 +153,9 @@ export default function Navigation() {
 
     // Примерни пренасочвания към поддомейни
     const languageUrls = {
-      ru: "#", // bg.example.com
-      bg: "https://brd-bg.vercel.app/", // en.example.com
-      en: "https://brd-en.vercel.app/", // de.example.com
+      ru: "#",
+      bg: "https://brd-law.bg/",
+      en: "https://en.brd-law.bg/",
     };
 
     // В реален проект това ще пренасочва към актуалните поддомейн URLs
